@@ -2,9 +2,43 @@
 
 ## React-Django Restful CRUD API with PostgreSQL
 
-### notetaking folder -- django api (backend)
+### notetaking folder -- django api (backend)(create a virtual environment)
+
+## Running the Application
+
+Create the DB tables first:
+
+```
+python manage.py migrate
+```
+
+Run the development web server:
+
+```
+python manage.py runserver 8080
+```
 
 ### react-notes folder -- react app (frontend)
+
+## Project setup
+
+In the project directory, you can run:
+
+```
+npm install
+# or
+yarn install
+```
+
+or
+
+### Compiles and hot-reloads for development
+
+```
+npm start
+# or
+yarn start
+```
 
 #### api calls
 
